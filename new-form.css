@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to left,pink,#046A38,red);
+    animation-name: myAnimation1;
+}
+
+.container{
+
+    height: 400px;
+    width: 400px;
+    background-color:violet;
+    border: 2px solid lightseagreen;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    animation: alternate-reverse;
+    margin: 150px auto;
+    align-items: center;
+  
+
+}
+  
+
+ .box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    font-size: 20px;
+    animation-name: myAnimation;
+    animation-name: myAnimation1;
+    animation-duration: 2s;
+    animation-delay:0;
+    animation-iteration-count:3;
+    animation-direction:alternate;
+    z-index: 5px;
+
+}
+
+@keyframes myAnimation1{
+    from{
+        background-image: linear-gradient(to left,pink,#046A38,red);
+    
+
+    }
+    to{
+        background-image: linear-gradient(to right,yellow,pink,violet);
+    }
+}
+@keyframes myAnimation{
+    from{
+        font-size:20px;
+
+    }
+    to{
+        font-size: 100px;
+    }
+}

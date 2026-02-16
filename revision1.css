@@ -1,0 +1,48 @@
+header{
+    height: 50px;
+    width: 1100px;
+background-color: black;
+border-width: 2px;
+border-style: solid;
+border-color:red;
+}
+
+#zero{
+    text-decoration: none;
+    background-color: black;
+    color: yellow;
+ 
+}
+#one{
+    background-color: black;
+    color: white;
+    margin-left: 115px;
+}
+#two{
+    background-color: black;
+    color: white;
+    margin-left: 115px;
+}
+#three{
+    background-color: black;
+    color: white;
+    margin-left: 115px;
+}
+#four{
+    background-color: white;
+    margin-left: 150px;
+}
+button{
+    background-color: rgb(245,130,0);
+    color: white;
+}
+.myclass{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}

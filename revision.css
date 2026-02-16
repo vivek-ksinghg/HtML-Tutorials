@@ -1,0 +1,62 @@
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: beige;
+    border:dotted 2px blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+     align-items: center; 
+    margin: auto;
+    margin-top: 150px;
+    animation: borderAnimation 1s normal infinite;
+   
+
+}
+
+@keyframes borderAnimation {
+    0% {
+        border-top: 4px dotted red;
+        border-right: 4px dotted transparent;
+        border-bottom: 4px dotted transparent;
+        border-left: 4px dotted transparent;
+    }
+    25% {
+        border-top: 4px dotted transparent;
+        border-right: 4px dotted blue;
+        border-bottom: 4px dotted transparent;
+        border-left: 4px dotted transparent;
+    }
+    50% {
+        border-top: 4px dotted transparent;
+        border-right: 4px dotted transparent;
+        border-bottom: 4px dotted green;
+        border-left: 4px dotted transparent;
+    }
+    75% {
+        border-top: 4px dotted transparent;
+        border-right: 4px dotted transparent;
+        border-bottom: 4px dotted transparent;
+        border-left: 4px dotted yellow;
+    }
+    100% {
+        border-top: 4px dotted red;
+        border-right: 4px dotted transparent;
+        border-bottom: 4px dotted transparent;
+        border-left: 4px dotted transparent;
+    }
+}
+
+#box{
+
+    width: 100px;
+    height: 100px;
+    background-color: darkgrey;
+    border:solid 2px black;
+    border-radius: 20px;
+    text-align: center;
+   
+  
+
+}
